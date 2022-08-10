@@ -13,12 +13,55 @@
 
 <body>
 
+  <header id="navigation" class="p-navigation">
+    <div class="p-navigation__row">
+      <div class="p-navigation__banner">
+        <div class="p-navigation__logo">
+          <a class="p-navigation__item" href="#">
+            <img class="p-navigation__image" src="https://assets.ubuntu.com/v1/7f93bb62-snapcraft-logo--web-white-text.svg" alt="">
+          </a>
+        </div>
+        <a href="#navigation" class="p-navigation__toggle--open" title="menu">Menu</a>
+        <a href="#navigation-closed" class="p-navigation__toggle--close" title="close menu">Fechar</a>
+      </div>
+
+      <nav class="p-navigation__nav" aria-label="Menu">
+        <ul class="p-navigation__items">
+          <li class="p-navigation__item">
+            <a class="p-navigation__link" href="#">Galeria de imagens</a>
+          </li>
+          <li class="p-navigation__item">
+            <a class="p-navigation__link" href="#">Sobre nós</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+
+
+
+
+
   <section class="p-strip--suru-background is-dark is-deep">
     <div class="row">
       <div class="col-12 u-align-text--center">
         <h1>Marcelo Paulino</h1>
         <hr class="p-separator">
         <h2>A MPS assessoria familiar em dependência química, nasce da vontade de ajudar pessoas e famílias, direcionando e encaminhando o <strong>dependente quimíco/alcoólico</strong> para o melhor tratamento.</h2>
+      </div>
+    </div>
+  </section>
+
+  <section class="p-strip is-bordered is-shallow">
+    <div class="row">
+      <div class="col-6 col-start-large-4">
+        <div class="p-card--highlighted">
+          <video controls>
+            <source src="assets/videos/video.mp4" type="video/mp4" />
+          </video>
+        </div>
       </div>
     </div>
   </section>
@@ -33,32 +76,14 @@
     </div>
   </section>
 
-  <section class="p-strip is-bordered u-align--center">
+  <section class="p-strip u-align--center">
     <div class="row u-align--center">
-      <div class="col-4">
-        <img src="assets/images/file1.jpeg" class="p-image--shadowed">
-      </div>
-      <div class="col-4">
-        <img src="assets/images/file2.jpeg" class="p-image--shadowed">
-      </div>
-      <div class="col-4">
-        <img src="assets/images/file3.jpeg" class="p-image--shadowed">
-      </div>
 
-      <hr class="p-separator">
       <div class="col-6">
         <img src="assets/images/file4.jpeg" class="p-image--shadowed">
       </div>
       <div class="col-6">
         <img src="assets/images/file5.jpeg" class="p-image--shadowed">
-      </div>
-
-      <hr class="p-separator">
-      <div class="col-6">
-        <img src="assets/images/file7.jpeg" class="p-image--shadowed">
-      </div>
-      <div class="col-6">
-        <img src="assets/images/file8.jpeg" class="p-image--shadowed">
       </div>
 
       <hr class="p-separator">
@@ -105,11 +130,14 @@
       </div>
     </div>
   </section>
-
+  <div class="p-top">
+    <a href="#" class="p-top__link">Voltar para o topo</a>
+  </div>
   <footer class="p-strip--light is-deep">
     <div class="row p-content__row">
       <div class="col-12">
         <h4 class="u-align-text--center">MPS Assessoria familiar em <strong>dependência química</strong> e <strong>alcoolismo</strong></h4>
+        <h3 class="u-align-text--center">Marcelo Paulino</h3>
         <hr class="p-separator">
         <nav>
           <ul class="p-inline-list--middot u-no-margin--bottom">
